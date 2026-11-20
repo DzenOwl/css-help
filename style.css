@@ -1,0 +1,47 @@
+:root {
+    --primary: #7734db;
+    --primary-opacity: #7734db74;
+    --dark: #110720;
+}
+
+header {
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+nav a {
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+nav .active {
+    border-bottom: 3px solid var(--primary);
+    color: var(--primary);
+}
+
+.cover {
+    height: 75vh;
+}
+
+.store {
+    width: 80vw;
+} 
+
+.cover-image {
+    border: 1px solid var(--primary);
+    border-radius: 50%;
+}
+
+.col {
+    height: 100%;
+}
+
+.card {
+    width: 270px;
+}
+
+/* footer {
+    background-color: var(--dark);
+} */
+
